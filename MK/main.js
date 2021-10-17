@@ -20,7 +20,7 @@ const player2 = {
 }
 player2.attack();
 
-function createPlayer(player, namePlayer) {
+function createPlayer(player, namePlayer, hp) {
     const div1 = document.createElement('div');
     div1.classList.add(player);
 
